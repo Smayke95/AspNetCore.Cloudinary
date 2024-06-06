@@ -1,0 +1,26 @@
+{
+  "$schema": "https://marketplace.umbraco.com/umbraco-marketplace-schema.json",
+  "Title": "S95.AspNetCore.Cloudinary",
+  "AuthorDetails": {
+    "Name": "Smayke95",
+    "Url": "https://smayke95.github.io/"
+  },
+  "AlternatePackageNames": [
+    "AspNetCore Cloudinary"
+  ],
+  "Category": "Developer Tools",
+  "DocumentationUrl": "https://github.com/Smayke95/AspNetCore.Cloudinary",
+  "IssueTrackerUrl": "https://github.com/Smayke95/AspNetCore.Cloudinary/issues",
+  "LicenseTypes": [
+    "Free"
+  ],
+  "PackageType": "Package",
+  "PackagesByAuthor": [
+    "S95.Umbraco.GoogleTranslate",
+    "S95.Umbraco.OpenAI",
+  ],
+  "Tags": [
+    "cloudinary",
+	"cdn"
+  ]
+}

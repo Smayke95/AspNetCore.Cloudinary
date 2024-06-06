@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <Product>S95.AspNetCore.Cloudinary</Product>
+    <PackageId>S95.AspNetCore.Cloudinary</PackageId>
+    <Title>S95.AspNetCore.Cloudinary</Title>
+    <Description>Cloudinary middleware for AspNetCore.</Description>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <FileVersion>1.0.0</FileVersion>
+    <PackageTags>cloudinary cdn umbraco umbraco-marketplace plugin package</PackageTags>
+    <Authors>Smayke95</Authors>
+    <PackageProjectUrl>https://github.com/Smayke95/AspNetCore.Cloudinary</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Smayke95/AspNetCore.Cloudinary</RepositoryUrl>
+    <PackageIcon>icon-cloudinary.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\icon-cloudinary.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="7.0.0" />
+  </ItemGroup>
+
+</Project>
